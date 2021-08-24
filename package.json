@@ -1,0 +1,33 @@
+{
+  "name": "handyman",
+  "version": "1.0.0",
+  "description": "",
+  "author": "KKazlov",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "autoprefixer": "^10.3.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.5",
+    "core-js": "^3.16.1",
+    "cssnano": "^5.0.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "panini": "^1.7.2",
+    "postcss": "^8.3.6",
+    "sass": "^1.37.5",
+    "webpack": "^5.50.0",
+    "webpack-stream": "^6.1.2"
+  }
+}
