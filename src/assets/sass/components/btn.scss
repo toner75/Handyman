@@ -1,0 +1,16 @@
+.btn {
+    padding: 15px 30px;
+    background: $yellow;
+    border: 1px solid $yellow;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+
+    &--glass {
+        background: none;
+        border: 1px solid #fff;
+    }
+}

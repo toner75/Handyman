@@ -1,0 +1,42 @@
+.main {
+    padding-bottom: 125px;
+
+    background: url("../img/homepage/bg/1.jpg") no-repeat;
+}
+
+.main__wrapper {
+    max-width: 700px;
+    padding-top: 290px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.main__title {
+    margin-bottom: 15px;
+
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main__subtitle {
+    margin-bottom: 60px;
+
+    font-size: 18px;
+    font-weight: 400;
+    color: $lightGray;
+}
+
+.main__btns {
+    display: flex;
+    justify-content: center;
+
+    a {
+        &:first-child {
+            margin-right: 15px;
+        }
+    }
+}
+
