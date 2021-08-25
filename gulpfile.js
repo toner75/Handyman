@@ -20,15 +20,16 @@ const { plugin } = require("postcss");
 const dist = "./dist/";
 
 gulp.task("html-task", () => {
+    panini.refresh();
     return gulp
-        .src("./src/index.html")
+        .src("./src/*.html")
         .pipe(plumber())
         .pipe(panini({
-            root: 'src/',
-            layouts: 'src/tpl/layouts/',
-            partials: 'src/tpl/partials/',
-            helpers: 'src/tpl/helpers/',
-            data: 'src/tpl/data/'
+            root: './src/',
+            layouts: './src/tpl/layouts/',
+            partials: './src/tpl/partials/',
+            helpers: './src/tpl/helpers/',
+            data: './src/tpl/data/'
           }))
         .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest(dist))
@@ -124,7 +125,6 @@ gulp.task("fonts-task", () => {
 });
 
 
-
 gulp.task("watch", () => {
     browsersync.init({
         server: "./dist/",
@@ -132,7 +132,7 @@ gulp.task("watch", () => {
         notify: true,
     });
 
-    gulp.watch("./src/index.html", gulp.parallel("html-task"));
+    gulp.watch("./src/**/*.html", gulp.parallel("html-task"));
     gulp.watch("./src/assets/sass/**/*.scss", gulp.parallel("css-task"));
     gulp.watch("./src/assets/*.*", gulp.parallel("copy-assets"));
     gulp.watch("./src/assets/img/**/*.*", gulp.parallel("image-task"));

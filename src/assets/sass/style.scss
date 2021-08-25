@@ -1,10 +1,11 @@
 @import "./normalize.scss";
-@import "./default.scss";
+@import "./fonts.scss";
 @import "./vars.scss";
-
-
-
+@import "./default.scss";
 
 
 /* Components */
+@import "./components/header.scss";
+@import "./components/social-icons.scss";
+@import "./components/nav.scss";
 
