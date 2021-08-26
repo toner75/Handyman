@@ -1,0 +1,16 @@
+.brands {
+    padding: 60px 0;
+    background: $lightGray;
+}
+
+.brands__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.brand__item {
+    img {
+        max-width: 100%;
+    }
+}
