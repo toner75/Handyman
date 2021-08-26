@@ -25,7 +25,8 @@
 
     h3 {
         font-size: 15px;
-        color: $darkGray;
+        font-weight: 400;
+        color: #666;
     }
 
     &--clients {
@@ -41,5 +42,20 @@
     &--projects {
         padding: 60px 0;
         
+    }
+
+    &--choose {
+        max-width: 600px;
+        margin: 0;
+
+        text-align: left;
+
+        h2 {
+            text-align: left;
+        }
+
+        .line {
+            margin: 0 auto 15px 0;
+        }
     }
 }
