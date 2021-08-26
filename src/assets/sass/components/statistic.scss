@@ -1,0 +1,55 @@
+.statistic {
+    padding: 97px 0;
+    background: url("../img/homepage/bg/4.jpg") no-repeat;
+}
+
+.statistic__wrapper {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.statistic__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        margin: 10px 0;
+
+        font-size: 45px;
+        font-weight: 700;
+        color: $yellow;
+    }
+
+    h3 {
+        font-size: 17px;
+        font-weight: 400;
+        color: #999;
+    }
+}
+
+.statistic__icon {
+    width: 55px;
+    height: 55px;
+
+
+    border-radius: 100%;
+    background: $blue;
+
+    position: relative;
+
+    .icon {
+        width: 30px;
+        height: 30px;
+
+        color: #fff;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+
+    }
+}
