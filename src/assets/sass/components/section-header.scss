@@ -1,5 +1,8 @@
 .section-header {
+    margin: 0 auto;
+    max-width: 530px;
     padding: 60px 0 30px;
+    text-align: center;
     
     h2 {
         margin-bottom: 20px;
@@ -13,11 +16,16 @@
     }
 
     .line {
-        margin: 0 auto;
+        margin: 0 auto 15px;
         width: 60px;
         height: 3px;
 
         background: $blue;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: $darkGray;
     }
 
     &--clients {
@@ -28,5 +36,10 @@
         .line {
             background: #fff;
         }
+    }
+
+    &--projects {
+        padding: 60px 0;
+        
     }
 }
