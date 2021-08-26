@@ -29,5 +29,8 @@
     "sass": "^1.37.5",
     "webpack": "^5.50.0",
     "webpack-stream": "^6.1.2"
+  },
+  "dependencies": {
+    "tiny-slider": "^2.9.3"
   }
 }

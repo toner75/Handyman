@@ -1,0 +1,32 @@
+.section-header {
+    padding: 60px 0 30px;
+    
+    h2 {
+        margin-bottom: 20px;
+
+        text-align: center;
+
+        font-size: 30px;
+        font-weight: 800;
+        color: $black;
+        text-transform: uppercase;
+    }
+
+    .line {
+        margin: 0 auto;
+        width: 60px;
+        height: 3px;
+
+        background: $blue;
+    }
+
+    &--clients {
+        h2 {
+            color: #fff;
+        }
+
+        .line {
+            background: #fff;
+        }
+    }
+}

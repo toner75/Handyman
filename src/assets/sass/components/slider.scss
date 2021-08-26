@@ -1,0 +1,42 @@
+.slider {
+    max-width: 800px;
+    margin: 30px auto 0;
+    position: relative;
+}
+
+.slider__nav {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+
+    transform: translate3d(-50%, 0, 0);
+
+    button {
+        padding: 10px;
+
+        background: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+
+        .icon {
+            width: 9px;
+            height: 14px;
+            color: rgba(242, 242, 242, 0.3);
+
+            transition: $transition;
+        }
+
+        &:hover {
+            .icon {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.slider__prev {
+    margin-right: 150px;
+    transform: rotate(180deg);
+}

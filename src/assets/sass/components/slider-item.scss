@@ -1,0 +1,28 @@
+.slider-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.slider-item__photo {
+    margin-bottom: 15px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.slider-item__quote {
+    margin-bottom: 30px;
+
+    color: $lightGray;
+    font-size: 15px;
+
+}
+
+.slider-item__author {
+    color: #ccc;
+}
