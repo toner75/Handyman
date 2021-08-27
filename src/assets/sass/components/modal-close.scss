@@ -1,0 +1,49 @@
+.close-container {
+    width: 50px;
+    height: 50px;
+
+    margin-left: auto;
+    
+    cursor: pointer;
+    position: relative;
+
+}
+
+.leftright {
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: $black;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in;
+}
+
+.rightleft {
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: $black;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in;
+}
+
+.close {
+    margin: 60px 0 0 5px;
+    position: absolute;
+}
+
+.close-container:hover .leftright {
+    transform: rotate(-45deg);
+    background-color: $black;
+}
+.close-container:hover .rightleft {
+    transform: rotate(45deg);
+    background-color: $black;
+}
+.close-container:hover label {
+    opacity: 1;
+}

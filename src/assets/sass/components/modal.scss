@@ -1,0 +1,18 @@
+@import "./modal-close.scss";
+
+.modal {
+    width: 95vw;
+    height: 95vh;
+
+    padding: 30px;
+
+    background: #fff;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 200;
+}
+
+
