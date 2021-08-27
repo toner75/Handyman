@@ -23,31 +23,4 @@
 
 }
 
-.contact__input {
-    margin-bottom: 30px;
 
-    label {
-        div {
-            font-size: 15px;
-            font-weight: 400;
-            color: $darkGray;
-            margin-bottom: 10px;
-        }
-
-        input, textarea {
-            width: 100%;
-            max-width: 370px;
-            padding: 10px;
-
-            border: 1px solid #e6e6e6;
-            &:focus {
-                outline: 1px solid $darkGray;
-            }
-        }
-
-        textarea {
-            height: 130px;
-            resize: none;
-        }
-    }
-}

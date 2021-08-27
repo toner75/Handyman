@@ -1,4 +1,4 @@
-.contact-header {
+.page-header {
     padding: 93px 0;
     background: url("../img/contact/bg.jpg") no-repeat;
 
@@ -9,4 +9,8 @@
 
     text-transform: uppercase;
     text-align: center;
+
+    &--faq {
+        background: url("../img/faq/bg.jpg") no-repeat;
+    }
 }

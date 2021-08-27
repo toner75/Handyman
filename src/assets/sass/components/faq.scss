@@ -1,0 +1,36 @@
+.faq {
+    padding: 90px 0 0;
+
+}
+
+.faq__grid {
+    min-height: 655px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.faq__form {
+    max-width: 370px;
+    
+    .header {
+        margin-bottom: 15px;
+
+        background: none;
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            font-weight: 700;
+            color: $black;
+            text-transform: uppercase;
+        }
+
+        span {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #666;
+        }
+    }
+}
