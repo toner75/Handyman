@@ -1,9 +1,31 @@
+.contact-items {
+    &--contact {
+        .contact-item__icon {
+            background: $yellow;
+
+            .icon {
+                color: #fff;
+            }
+        }
+
+        .contact-item__text {
+            .contact-item__phone {
+                color: $black;
+            }
+
+            h3,
+            .contact-item__email {
+                color: $black;
+            }
+        }
+    }
+}
+
 .contact-item {
     margin-bottom: 15px;
 
     display: flex;
     align-items: center;
-
 }
 
 .contact-item__icon {
@@ -39,7 +61,8 @@
         text-decoration: none;
     }
 
-    h3, .contact-item__email {
+    h3,
+    .contact-item__email {
         font-size: 15px;
         font-weight: 400;
         color: #ccc;
