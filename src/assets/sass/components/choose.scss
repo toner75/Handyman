@@ -26,27 +26,6 @@
     align-items: center;
 }
 
-.choose__icon {
-    width: 60px;
-    height: 60px;
-
-    background: $blue;
-
-    position: relative;
-
-    .icon {
-        width: 30px;
-        height: 30px;
-
-        color: #fff;
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%, -50%, 0);
-    }
-}
-
 .choose__text {
     max-width: 220px;
     margin-left: 15px;

@@ -4,7 +4,6 @@
 }
 
 .statistic__wrapper {
-    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -27,29 +26,5 @@
         font-size: 17px;
         font-weight: 400;
         color: #999;
-    }
-}
-
-.statistic__icon {
-    width: 55px;
-    height: 55px;
-
-
-    border-radius: 100%;
-    background: $blue;
-
-    position: relative;
-
-    .icon {
-        width: 30px;
-        height: 30px;
-
-        color: #fff;
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%, -50%, 0);
-
     }
 }
