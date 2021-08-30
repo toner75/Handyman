@@ -31,6 +31,18 @@ document.addEventListener('DOMContentLoaded', () => {
             prevButton: '.gallery-slider__prev',
             nextButton: '.gallery-slider__next',
         });
+
+        tns({
+            container: '.project-slider__wrapper',
+            items: 1,
+            autoplay: false,
+            nav: false,
+            speed: 300,
+            
+            controlsContainer: '.project-slider__nav',
+            prevButton: '.project-slider__prev',
+            nextButton: '.project-slider__next',
+        });
     } catch(err){}
     
 });

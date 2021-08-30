@@ -1,10 +1,10 @@
-.slider, .gallery-slider {
+.slider, .gallery-slider, .project-slider {
     max-width: 800px;
     margin: 30px auto 0;
     position: relative;
 }
 
-.slider__nav, .gallery-slider__nav {
+.slider__nav, .gallery-slider__nav, .project-slider__nav {
     display: flex;
     position: absolute;
     top: 10%;
@@ -36,7 +36,7 @@
     }
 }
 
-.gallery-slider__nav {
+.gallery-slider__nav, .project-slider__nav {
     width: 120%;
     top: 50%;
     left: 50%;
@@ -61,7 +61,7 @@
     }
 }
 
-.slider__prev, .gallery-slider__prev {
+.slider__prev, .gallery-slider__prev, .project-slider__prev {
     margin-right: 150px;
     transform: rotate(180deg);
 }
