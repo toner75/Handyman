@@ -234,7 +234,7 @@ title: Home
     </div>
 </section>
 
-<section class="projects">
+<section id="projects" class="projects">
     <div class="section-header section-header--projects">
         <h2>Recent Projects</h2>
         <div class="line"></div>
@@ -752,193 +752,26 @@ title: Home
     </div>
 </section>
 
-<div class="modal" >
+<div class="modal" style="display: none;">
     <div class="close-container">
         <div class="leftright"></div>
         <div class="rightleft"></div>
     </div>
 
-    <div class="modal-service" style="display: none;" >
+    <div class="modal-project">
         <div class="container">
-            <h2 class="modal-service_header">SERVICES</h2>
-
-            <div class="modal-service__btns">
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#engineering"></use>
-                    </svg>
-                    <span>Engine Repair</span>
-                </button>
-
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#bolt"></use>
-                    </svg>
-                    <span>Electrical</span>
-                </button>
-
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#valve"></use>
-                    </svg>
-                    <span>Plumbing</span>
-                </button>
-
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#wrench"></use>
-                    </svg>
-                    <span>Repair House</span>
-                </button>
-
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#paint-roller"></use>
-                    </svg>
-                    <span>Wall Paint</span>
-                </button>
-
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#home"></use>
-                    </svg>
-                    <span>Home Maintenance</span>
-                </button>
-
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#hammer"></use>
-                    </svg>
-                    <span>Installation</span>
-                </button>
-
-                <button>
-                    <svg class="icon">
-                        <use xlink:href="#shovel"></use>
-                    </svg>
-                    <span>Garden Repairs</span>
-                </button>
-            </div>
-
-            <div class="modal-service__content">
-                <div class="container">
-                    <h3>Engine Repair</h3>
-
-                    <div class="modal-service__img">
-                        <img
-                            src="./assets/img/services/main/1.jpg"
-                            alt="services"
-                        />
-                    </div>
-
-                    <div class="modal-service__text">
-                        <h3>Pellentesque efficitur risus vel libero.</h3>
-
-                        <span>
-                            Class aptent taciti sociosqu ad litora torquent per
-                            conubia nostra, per inceptos himenaeos. Cras vitae
-                            pharetra massa. Praesent sed nunc tortor. Proin sed
-                            sem pellentesque, aliquet dui eu, aliquet nunc.
-                            Etiam ac elit eu libes pharetra sit amet vel nibh.
-                            Integer metus augue, fermentum eu est in, porttitor
-                            tincidunt arcu. Curabitur cursus pellente q blandit.
-                            Suspendisse placerat sit amet diam at facilisis. In
-                            eleifend ligula non odio pulvinar congue. Rivamus
-                            tinc ac eleif mollis. Nulla placerat, sem id
-                            bibendum faucibus, ante metus porta nisl, non
-                            pretium odio quam sed magna. In molestie vel odio
-                            nec faucibus. Integer viverra non risus ut viverra.
-                            Sed egestas at ipsum a consequat.
-                        </span>
-                    </div>
-
-                    <div class="modal-service__text">
-                        <h3>Sed the feugiat enim tincidunt.</h3>
-
-                        <span>
-                            Class aptent taciti sociosqu ad litora torquent per
-                            conubia nostra, per inceptos himenaeos. Cras vitae
-                            pharetra massa. Praesent sed nunc tortor. Proin sed
-                            sem pellentesque, aliquet dui eu, aliquet nunc.
-                            Etiam ac elit eu libes pharetra sit amet vel nibh.
-                            Integer metus augue, fermentum eu est in, porttitor
-                            tincidunt arcu.
-                        </span>
-                    </div>
-
-                    <div class="modal-service__gallery">
-                        <h3>GALLERY</h3>
-
-                        <div class="slider">
-                            <div id="slider-gallery__wrapper">
-                                <div>
-                                    <div class="modal-service__item">
-                                        <img
-                                            src="./assets/img/services/gallery/1.jpg"
-                                            alt="gallery"
-                                        />
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="modal-service__item">
-                                        <img
-                                            src="./assets/img/services/gallery/2.jpg"
-                                            alt="gallery"
-                                        />
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="modal-service__item">
-                                        <img
-                                            src="./assets/img/services/gallery/3.jpg"
-                                            alt="gallery"
-                                        />
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="modal-service__item">
-                                        <img
-                                            src="./assets/img/services/gallery/4.jpg"
-                                            alt="gallery"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div id="slider-gallery__nav" class="slider__nav slider__nav--static">
-                                <button id="slider-gallery__prev" class="slider__prev">
-                                    <svg class="icon">
-                                        <use xlink:href="#right-arrow"></use>
-                                    </svg>
-                                </button>
-
-                                <button id="slider-gallery__next" class="slider__next">
-                                    <svg class="icon">
-                                        <use xlink:href="#right-arrow"></use>
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal-project" >
-        <div class="container">
-            <h2 class="modal-service_header">PROJECTS</h2>
+            <h2 class="services-item_header">PROJECTS</h2>
 
             <div class="modal-project__content">
                 <div class="slider">
-                    <div id="slider-project__wrapper" >
+                    <div id="slider-project__wrapper">
                         <div>
                             <div class="project-slider__item">
                                 <div class="project-slider__img">
-                                    <img src="./assets/img/project/main/1.jpg" alt="project">
+                                    <img
+                                        src="./assets/img/project/main/1.jpg"
+                                        alt="project"
+                                    />
                                 </div>
 
                                 <div class="project-slider__labels">
@@ -948,7 +781,7 @@ title: Home
                                                 <use xlink:href="#user"></use>
                                             </svg>
                                         </div>
-    
+
                                         <div class="project-slider__info">
                                             <h3>Client Details:</h3>
                                             <h4>Mr. Joseph Mendez</h4>
@@ -958,10 +791,12 @@ title: Home
                                     <div class="project-slider__label">
                                         <div class="project-slider__icon">
                                             <svg class="icon">
-                                                <use xlink:href="#price-tags"></use>
+                                                <use
+                                                    xlink:href="#price-tags"
+                                                ></use>
                                             </svg>
                                         </div>
-    
+
                                         <div class="project-slider__info">
                                             <h3>Categories:</h3>
                                             <h4>Electrical, Energy</h4>
@@ -974,20 +809,22 @@ title: Home
                                                 <use xlink:href="#files"></use>
                                             </svg>
                                         </div>
-    
+
                                         <div class="project-slider__info">
                                             <h3>Project Title:</h3>
                                             <h4>Project name</h4>
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="project-slider__item">
                                 <div class="project-slider__img">
-                                    <img src="./assets/img/project/main/2.jpg" alt="project">
+                                    <img
+                                        src="./assets/img/project/main/2.jpg"
+                                        alt="project"
+                                    />
                                 </div>
 
                                 <div class="project-slider__labels">
@@ -997,7 +834,7 @@ title: Home
                                                 <use xlink:href="#user"></use>
                                             </svg>
                                         </div>
-    
+
                                         <div class="project-slider__info">
                                             <h3>Client Details:</h3>
                                             <h4>Mr. Joseph Mendez</h4>
@@ -1007,10 +844,12 @@ title: Home
                                     <div class="project-slider__label">
                                         <div class="project-slider__icon">
                                             <svg class="icon">
-                                                <use xlink:href="#price-tags"></use>
+                                                <use
+                                                    xlink:href="#price-tags"
+                                                ></use>
                                             </svg>
                                         </div>
-    
+
                                         <div class="project-slider__info">
                                             <h3>Categories:</h3>
                                             <h4>Electrical, Energy</h4>
@@ -1023,18 +862,21 @@ title: Home
                                                 <use xlink:href="#files"></use>
                                             </svg>
                                         </div>
-    
+
                                         <div class="project-slider__info">
                                             <h3>Project Title:</h3>
                                             <h4>Project name</h4>
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="slider-project__nav" class="slider__nav slider__nav--static">
+
+                    <div
+                        id="slider-project__nav"
+                        class="slider__nav slider__nav--static"
+                    >
                         <button id="slider-project__prev" class="slider__prev">
                             <svg class="icon">
                                 <use xlink:href="#right-arrow"></use>
@@ -1052,4 +894,3 @@ title: Home
         </div>
     </div>
 </div>
-

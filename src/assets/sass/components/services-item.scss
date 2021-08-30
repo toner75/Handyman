@@ -1,4 +1,4 @@
-.modal-service_header {
+.services-item_header {
     margin-bottom: 30px;
 
     font-size: 30px;
@@ -6,8 +6,8 @@
     text-align: center;
 }
 
-.modal-service__btns {
-    padding: 30px;
+.services-item__btns {
+    padding: 60px;
     margin-bottom: 30px;
 
     display: grid;
@@ -50,7 +50,8 @@
     }
 }
 
-.modal-service__content {
+.services-item__content {
+    padding-bottom: 90px;
     .container {
         max-width: 850px;
     }
@@ -69,14 +70,14 @@
         color: $black;
     }
 
-    .modal-service__img {
+    .services-item__img {
         margin-bottom: 60px;
         img {
             max-width: 100%;
         }
     }
 
-    .modal-service__text {
+    .services-item__text {
         margin-bottom: 30px;
 
         h3 {
@@ -96,7 +97,7 @@
         }
     }
 
-    .modal-service__gallery {
+    .services-item__gallery {
         width: 100%;
         padding-top: 30px;
         margin-bottom: 30px;
@@ -109,7 +110,7 @@
             color: $black;
         }
 
-        .modal-service__item {
+        .services-item__item {
             img {
                 max-width: 100%;
             }
