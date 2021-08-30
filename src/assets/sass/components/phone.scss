@@ -33,21 +33,16 @@
 }
 
 @media(max-width: 900px) {
+    .phone {
+        padding: 60px 0;   
+    }
     .phone__wrapper {
         flex-direction: column;
 
         h2 {
             text-align: center;
             margin-bottom: 30px;
-        }
-    }
-}
-
-@media(max-width: 900px) {
-    .phone__wrapper {
-        h2 {
             font-size: 24px;
         }
-
     }
 }
