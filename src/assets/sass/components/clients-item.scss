@@ -1,4 +1,4 @@
-.slider-item {
+.clients-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.slider-item__photo {
+.clients-item__photo {
     margin-bottom: 15px;
 
     img {
@@ -15,7 +15,7 @@
     }
 }
 
-.slider-item__quote {
+.clients-item__quote {
     margin-bottom: 30px;
 
     color: $lightGray;
@@ -23,6 +23,6 @@
 
 }
 
-.slider-item__author {
+.clients-item__author {
     color: #ccc;
 }

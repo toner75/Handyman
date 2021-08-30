@@ -1,4 +1,4 @@
-.services-item {
+.services-card {
     width: 270px;
     height: 260px;
 
@@ -19,23 +19,23 @@
         background: $blue;
         border: solid 4px $blue;
 
-        .services-item__img {
+        .services-card__img {
             .icon {
                 color: #fff;
             }
         }
 
-        .services-item__header {
+        .services-card__header {
             color: #fff;
         }
 
-        .services-item__subheader {
+        .services-card__subheader {
             color: $lightGray;
         }
     }
 }
 
-.services-item__img {
+.services-card__img {
     margin-bottom: 15px;
 
     .icon {
@@ -45,7 +45,7 @@
     }
 }
 
-.services-item__header {
+.services-card__header {
     margin-bottom: 15px;
 
     font-size: 24px;
@@ -53,7 +53,7 @@
     color: $black;
 }
 
-.services-item__subheader {
+.services-card__subheader {
     font-size: 15px;
     color: $darkGray;
 }

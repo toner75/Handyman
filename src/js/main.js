@@ -7,41 +7,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
     try {
         tns({
-            container: '.slider__wrapper',
+            container: '#slider-clients__wrapper',
             items: 1,
             autoplay: true,
             nav: false,
             autoplayButtonOutput: false,
             speed: 300,
             autoplayTimeout: 3500,
-            controlsContainer: '.slider__nav',
-            prevButton: '.slider__prev',
-            nextButton: '.slider__next',
+            controlsContainer: '#slider-clients__nav',
+            prevButton: '#slider-clients__prev',
+            nextButton: '#slider-clients__next',
         });
 
         tns({
-            container: '.gallery-slider__wrapper',
+            container: '#slider-gallery__wrapper',
             items: 3,
             autoplay: false,
             nav: false,
             gutter: 30,
             speed: 300,
             
-            controlsContainer: '.gallery-slider__nav',
-            prevButton: '.gallery-slider__prev',
-            nextButton: '.gallery-slider__next',
+            controlsContainer: '#slider-gallery__nav',
+            prevButton: '#slider-gallery__prev',
+            nextButton: '#slider-gallery__next',
         });
 
         tns({
-            container: '.project-slider__wrapper',
+            container: '#slider-project__wrapper',
             items: 1,
             autoplay: false,
             nav: false,
             speed: 300,
             
-            controlsContainer: '.project-slider__nav',
-            prevButton: '.project-slider__prev',
-            nextButton: '.project-slider__next',
+            controlsContainer: '#slider-project__nav',
+            prevButton: '#slider-project__prev',
+            nextButton: '#slider-project__next',
         });
     } catch(err){}
     
