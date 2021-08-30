@@ -28,8 +28,6 @@ gulp.task("html-task", () => {
             root: './src/',
             layouts: './src/tpl/layouts/',
             partials: './src/tpl/partials/',
-            helpers: './src/tpl/helpers/',
-            data: './src/tpl/data/'
           }))
         .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest(dist))

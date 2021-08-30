@@ -55,3 +55,21 @@
         text-decoration: underline;
     }
 }
+
+@media(max-width: $tablets) {
+    .nav__wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav__logo {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: $iphone-x) {
+    .nav__link {
+        font-size: 14px;
+        
+    }
+}

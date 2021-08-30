@@ -13,3 +13,14 @@
     color: $darkGray;
     font-size: 15px;
 }
+
+@media(max-width: $tablets) {
+    .header__wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__text {
+        margin-bottom: 15px;
+    }
+}
