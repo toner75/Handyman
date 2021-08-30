@@ -56,7 +56,7 @@
     }
 }
 
-@media(max-width: $tablets) {
+@media(max-width: $big-phone) {
     .nav__wrapper {
         flex-direction: column;
         justify-content: center;

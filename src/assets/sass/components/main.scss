@@ -1,6 +1,6 @@
 .main {
     padding-bottom: 125px;
-    padding: 0 15px;
+    padding: 0 15px 125px;
 
     background: url("../img/homepage/bg/1.jpg") no-repeat;
 }
@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width: $tablets) {
+@media (max-width: $big-phone) {
     .main__wrapper {
         padding-top: 200px;
     }
