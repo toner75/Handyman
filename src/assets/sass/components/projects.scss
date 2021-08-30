@@ -1,11 +1,12 @@
 .projects {
-    padding-bottom: 160px;
+    padding: 0 30px 160px;
 }
 
 .projects__filter {
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     button {
         margin-right: 15px;
@@ -87,6 +88,10 @@
         color: #ccc;
     }
 
+}
+
+@media(max-width: 900px) {
+    
 }
 
 
