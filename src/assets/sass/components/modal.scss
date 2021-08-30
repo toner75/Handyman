@@ -4,6 +4,8 @@
     width: 95vw;
     height: 95vh;
 
+    overflow-y: scroll;
+
     padding: 30px;
 
     background: #fff;
@@ -14,5 +16,3 @@
     transform: translate3d(-50%, -50%, 0);
     z-index: 200;
 }
-
-

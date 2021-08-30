@@ -1,10 +1,10 @@
-.slider {
+.slider, .gallery-slider {
     max-width: 800px;
     margin: 30px auto 0;
     position: relative;
 }
 
-.slider__nav {
+.slider__nav, .gallery-slider__nav {
     display: flex;
     position: absolute;
     top: 10%;
@@ -36,7 +36,32 @@
     }
 }
 
-.slider__prev {
+.gallery-slider__nav {
+    width: 120%;
+    top: 50%;
+    left: 50%;
+
+    transform: translate3d(-50%, -50%, 0);
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        .icon {
+            width: 30px;
+            height: 30px;
+            color: rgba(51, 51, 51, 0.308)
+
+        }
+
+        &:hover {
+            .icon {
+                color: $black;
+            }
+        }
+    }
+}
+
+.slider__prev, .gallery-slider__prev {
     margin-right: 150px;
     transform: rotate(180deg);
 }
