@@ -1,5 +1,6 @@
 .main {
     padding-bottom: 125px;
+    padding: 0 15px;
 
     background: url("../img/homepage/bg/1.jpg") no-repeat;
 }
@@ -40,3 +41,35 @@
     }
 }
 
+@media (max-width: $tablets) {
+    .main__wrapper {
+        padding-top: 200px;
+    }
+
+    .main__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: $iphone-x) {
+    .main {
+        padding-bottom: 30px;
+    }
+    .main__wrapper {
+        padding: 90px 0;
+    }
+
+    .main__title {
+        font-size: 30px;
+    }
+
+    .main__btns {
+        flex-direction: column;
+
+        a {
+            &:first-child {
+                margin: 0 0 15px;
+            }
+        }
+    }
+}
