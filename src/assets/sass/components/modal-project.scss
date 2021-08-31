@@ -1,15 +1,10 @@
 .modal-project {
     .container {
         max-width: 800px;
+        padding: 0;
     }
 }
 
-.modal-project__content {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .modal-project_header {
     margin-bottom: 30px;
