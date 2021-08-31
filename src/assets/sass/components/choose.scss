@@ -43,3 +43,38 @@
         color: #666;
     }
 }
+
+@media(max-width: $tablets) {
+    .choose__img {
+        display: none;
+    }
+
+    .choose__wrapper {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 900px) {
+    .choose__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choose__item {
+        justify-content: flex-start;
+    }
+}
+
+@media(max-width: 350px) {
+    .choose__item {
+        flex-direction: column;
+    }
+
+    .choose__text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    
+}
+
+
