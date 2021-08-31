@@ -1,7 +1,6 @@
 .phone {
     padding: 104px 0;
     background: url("../img/homepage/bg/3.jpg") no-repeat;
-
 }
 
 .phone__wrapper {
@@ -28,13 +27,12 @@
             height: 30px;
             margin-right: 10px;
         }
-
     }
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
     .phone {
-        padding: 60px 0;   
+        padding: 60px 0;
     }
     .phone__wrapper {
         flex-direction: column;
