@@ -6,9 +6,14 @@
     text-align: center;
 }
 
+.services-item {
+    padding: 0 30px;
+}
+
 .services-item__btns {
-    padding: 60px;
-    margin-bottom: 30px;
+    max-width: 1100px;
+    
+    margin: 60px auto 30px;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -115,5 +120,17 @@
                 max-width: 100%;
             }
         }
+    }
+}
+
+@media(max-width: 900px) {
+    .services-item__btns  {
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+
+@media(max-width: $big-phone) {
+    .services-item__btns  {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

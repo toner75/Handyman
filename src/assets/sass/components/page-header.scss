@@ -18,3 +18,10 @@
         background: url("../img/services/bg.jpg") no-repeat;
     }
 }
+
+@media(max-width: $big-phone) {
+    .page-header {
+        font-size: 30px;
+    }
+}
+

@@ -65,3 +65,27 @@
     margin-right: 150px;
     transform: rotate(180deg);
 }
+
+@media (max-width: 900px) {
+    .slider__nav {
+        &--static {
+            width: 110%;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .slider__nav {
+        button {
+            .icon {
+                color: rgb(242, 242, 242);
+            }
+            
+            &:hover {
+                .icon {
+                    color: rgb(242, 242, 242);
+                }
+            }
+        }
+    }
+}
