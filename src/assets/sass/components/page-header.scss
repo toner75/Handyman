@@ -25,3 +25,9 @@
     }
 }
 
+@media(max-width: $iphone-x) {
+    .page-header {
+        font-size: 22px;
+    }
+}
+

@@ -19,8 +19,32 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
+    gap: 30px;
+
     border: 1px solid #e6e6e6;
 
 }
+
+@media(max-width: $tablets) {
+    .contact__grid {
+        padding: 30px;
+    
+    }
+}
+
+@media(max-width: 900px) {
+    .contact-items--contact {
+        display: none;
+    }
+
+    .contact__grid {
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+}
+
+
+
+
 
 
