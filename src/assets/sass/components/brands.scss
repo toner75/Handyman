@@ -14,3 +14,9 @@
         max-width: 100%;
     }
 }
+
+@media(max-width: $big-phone) {
+    .brand__item {
+        padding: 10px;
+    }
+}
