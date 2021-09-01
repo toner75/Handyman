@@ -53,7 +53,7 @@
             transition: $transition;
         }
 
-        &:hover {
+        &.active {
             background: $blue;
             color: #fff;
 
