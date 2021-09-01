@@ -10,10 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (err) {}
 
     try {
-        serviceTabs();
-    } catch (err) {}
-
-    try {
         sliders();
     } catch (err) {}
 
