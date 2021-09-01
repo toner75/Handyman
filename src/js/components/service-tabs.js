@@ -282,18 +282,15 @@ const serviceTabs = () => {
         },
     ];
 
-    const btns = document.querySelectorAll(
+    const btnsPC = document.querySelectorAll(
         ".services-item > .services-item__btns button"
     );
 
-    const addActive = (selected) => {
-        btns.forEach((item) => {
-            item.classList.remove("active");
-        });
+    const btnsMobile = document.querySelectorAll(
+        ".accordion-item__body > .services-item__btns button"
+    );
 
-        btns[selected].classList.add("active");
-    };
-
+    
     const render = ({
         name,
         imgSrc,
@@ -360,7 +357,17 @@ const serviceTabs = () => {
         `;
     };
 
-    const onTabs = () => {
+    const onTabs = (btns) => {
+        const addActive = (selected) => {
+            btns.forEach((item) => {
+                item.classList.remove("active");
+            });
+    
+            btns[selected].classList.add("active");
+        };
+
+        addActive(0);
+
         btns.forEach((btn, btnIndex) => {
             btn.addEventListener("click", (e) => {
                 e.preventDefault();
@@ -371,10 +378,12 @@ const serviceTabs = () => {
         });
     };
 
-    addActive(0);
     render(serviceDB[0]);
 
-    onTabs();
+    
+
+    onTabs(btnsPC);
+    onTabs(btnsMobile);
 };
 
 export default serviceTabs;

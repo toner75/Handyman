@@ -3,8 +3,8 @@ const accordion = () => {
 
     accordionItems.forEach((item) => {
         item.addEventListener('click', (e) => {
-           e.preventDefault();
            item.classList.toggle('active'); 
+            
         });
     });
 
