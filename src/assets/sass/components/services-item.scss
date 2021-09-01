@@ -147,6 +147,9 @@
 }
 
 @media (max-width: $big-phone) {
+    .services-item__btns {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .services-item {
         .services-item__btns {
             display: none;
