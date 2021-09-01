@@ -55,6 +55,9 @@
 }
 
 @media(max-width: 900px) {
+    .choose {
+        padding: 60px 0;
+    }
     .choose__grid {
         grid-template-columns: repeat(1, 1fr);
     }

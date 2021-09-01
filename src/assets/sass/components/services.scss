@@ -1,3 +1,8 @@
+.services {
+    padding: 60px 0;
+}
+
+
 .services__grid {
     padding: 100px 0;
     justify-items: center;
@@ -5,6 +10,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+}
+
+.services__accordion {
+    display: none;
 }
 
 @media (max-width: $tablets) {
@@ -20,8 +29,13 @@
     }
 }
 
+
 @media (max-width: 600px) {
     .services__grid {
-        grid-template-columns: repeat(1, 1fr);
+       display: none;
+    }
+    
+    .services__accordion {
+        display: block;
     }
 }

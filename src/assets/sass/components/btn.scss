@@ -11,9 +11,16 @@
     text-transform: uppercase;
     color: #fff;
 
+    transition: $transition;
+
     &--glass {
         background: none;
         border: 1px solid #fff;
+
+        &:hover {
+            background: $yellow;
+            border: 1px solid $yellow;
+        }
     }
 
     &--form {
