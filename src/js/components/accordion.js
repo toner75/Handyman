@@ -4,7 +4,6 @@ const accordion = () => {
     accordionItems.forEach((item) => {
         item.addEventListener('click', (e) => {
            item.classList.toggle('active'); 
-            
         });
     });
 

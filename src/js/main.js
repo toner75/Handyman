@@ -2,7 +2,7 @@
 
 import sliders from "./components/sliders";
 import accordion from "./components/accordion";
-import serviceTabs from "./components/service-tabs";
+import projectsFilter from "./components/projects-filter";
 
 document.addEventListener("DOMContentLoaded", () => {
     try {
@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
         sliders();
+    } catch (err) {}
+
+    try {
+        projectsFilter();
     } catch (err) {}
 
 
