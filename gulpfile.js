@@ -52,7 +52,7 @@ gulp.task("js-task", () => {
         .pipe(
             webpack({
                 //development, production
-                mode: "development",
+                mode: "production",
                 output: {
                     filename: "script.js",
                 },

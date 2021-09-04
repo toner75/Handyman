@@ -2,7 +2,6 @@
     padding: 93px 0;
     background: url("../img/contact/bg.jpg") no-repeat;
 
-
     font-size: 50px;
     font-weight: 800;
     color: $yellow;
@@ -19,15 +18,14 @@
     }
 }
 
-@media(max-width: $big-phone) {
+@media (max-width: $big-phone) {
     .page-header {
         font-size: 30px;
     }
 }
 
-@media(max-width: $iphone-x) {
+@media (max-width: $iphone-x) {
     .page-header {
         font-size: 22px;
     }
 }
-

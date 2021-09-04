@@ -14,7 +14,7 @@
     font-size: 15px;
 }
 
-@media(max-width: $big-phone) {
+@media (max-width: $big-phone) {
     .header__wrapper {
         flex-direction: column;
         justify-content: center;

@@ -56,7 +56,7 @@
     }
 }
 
-@media(max-width: $big-phone) {
+@media (max-width: $big-phone) {
     .nav__wrapper {
         flex-direction: column;
         justify-content: center;
@@ -67,9 +67,8 @@
     }
 }
 
-@media(max-width: $iphone-x) {
+@media (max-width: $iphone-x) {
     .nav__link {
         font-size: 14px;
-        
     }
 }

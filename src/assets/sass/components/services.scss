@@ -2,7 +2,6 @@
     padding: 60px 0;
 }
 
-
 .services__grid {
     padding: 100px 0;
     justify-items: center;
@@ -29,12 +28,11 @@
     }
 }
 
-
 @media (max-width: 600px) {
     .services__grid {
-       display: none;
+        display: none;
     }
-    
+
     .services__accordion {
         display: block;
     }

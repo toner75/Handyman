@@ -44,7 +44,7 @@
     }
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
     .choose__img {
         display: none;
     }
@@ -54,7 +54,7 @@
     }
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
     .choose {
         padding: 60px 0;
     }
@@ -67,7 +67,7 @@
     }
 }
 
-@media(max-width: 350px) {
+@media (max-width: 350px) {
     .choose__item {
         flex-direction: column;
     }
@@ -76,8 +76,4 @@
         text-align: center;
         margin-top: 30px;
     }
-
-    
 }
-
-
